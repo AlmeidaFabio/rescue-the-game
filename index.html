@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resgate</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animation.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="background">
+            <div id="start">
+                <h1> Resgate </h1>
+                <p>Utilize a tecla: <br> <strong>W</strong> para movimentar o helicóptero para cima <br>
+                    <strong>S</strong> para movimentar o helicóptero para baixo <br> <strong>D</strong> para atirar.</p>
+                <button onclick="start()">Start</button>
+            </div>
+        </div>
+    </div>
+
+    <audio src="sounds/som.mp3" preload="auto" id="somDisparo"></audio>
+    <audio src="sounds/explosao.mp3" preload="auto" id="somExplosao"></audio>
+    <audio src="sounds/musica_fundo.mp3" preload="auto" id="bgmusic"></audio>
+    <audio src="sounds/gameover.mp3" preload="auto" id="somGameover"></audio>
+    <audio src="sounds/perdido.mp3" preload="auto" id="somPerdido"></audio>
+    <audio src="sounds/resgate.mp3" preload="auto" id="somResgate"></audio>
+
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/jquery-collision.min.js"></script>
+</body>
+
+</html>
